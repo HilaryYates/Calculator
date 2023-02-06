@@ -14,40 +14,46 @@
     <title>Calculator</title>
   </head>
   <body>
-    <h1 class="header">Calculator</h1>
-    <input type="number" id="num1" />
-    <input type="number" id="num2" />
-
-    <input
-      type="submit"
-      id="add"
-      class="btn btn-warning"
-      value="Add"
-      name="add"
-    />
-    <input
-      type="submit"
-      id="subtract"
-      value="Subtract"
-      class="btn btn-secondary"
-      name="subtract"
-    />
-    <input
-      type="submit"
-      id="multiply"
-      class="btn btn-warning"
-      value="Multiply"
-      name="multiply"
-    />
-    <input
-      type="submit"
-      id="divide"
-      value="Divide"
-      class="btn btn-secondary"
-      name="divide"
-    />
-
-    <div id="result"></div>
+    <div class="calculator-container">
+      <h1 class="header">Calculator</h1>
+      <div class="input-container">
+        <input type="number" id="num1" />
+        <input type="number" id="num2" />
+      </div>
+      <div class="button-container">
+        <input
+          type="submit"
+          id="add"
+          class="btn btn-warning"
+          value="Add"
+          name="add"
+        />
+        <input
+          type="submit"
+          id="subtract"
+          value="Subtract"
+          class="btn btn-secondary"
+          name="subtract"
+        />
+        <input
+          type="submit"
+          id="multiply"
+          class="btn btn-warning"
+          value="Multiply"
+          name="multiply"
+        />
+        <input
+          type="submit"
+          id="divide"
+          value="Divide"
+          class="btn btn-secondary"
+          name="divide"
+        />
+        <div class="result-container">
+          <div id="result"></div>
+        </div>
+      </div>
+    </div>
   </body>
   <script src="app.js"></script>
   <script
